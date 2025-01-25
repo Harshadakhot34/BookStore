@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "George Orwell",
+        "title": "1984",
+        "price": "$0.00",
+        "category": "Free",
+        "image":"https://media-hosting.imagekit.io//6083b0dbf449443e/download.jpeg?Expires=1832318911&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mYC1kUP57YFJCH-pxDqhxL~fGIe1o6fA4-i49VWWGhimYnnbWqtDzLw56uJbRTc54~TgOyafn4dFXPYyS9rsd2E-Bb-qDAurOV~P8SFfFF4qiM6yPYHA7epjqaq9RScutGKRAiGMw8-mF8YMrmdKZ2y3STjI72PiiDVdLHY4q5tkDvCyvM2F4HPUUPW92ikElbzVrLhfMoDQYuF9Nwn-vsQg~JDIAX7HZgbaqpT75ab-PjvsnT0Nwk8FEk~I1~QH-FrEUVFouW5yaF4VooTuggzAvYci8~utBLXv8gYrqt-qzxWmjLQOFIxGmCxIDH3MFG8VI31gN07ug8PuAf0iDA__",
+        "pdf": "https://files.libcom.org/files/1984.pdf"
+    },
+   
+    {
+        "id": 2,
+        "name": "F. Scott Fitzgerald",
+        "title": "The Great Gatsby",
+        "price": "$0.00",
+        "category": "Food",
+        "image": "https://books.google.co.in/books/publisher/content?id=WpD_DAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2smY1XG0tjSZpqcsPWGRs18i-NFg&w=1280",
+        "pdf": "https://www.planetebook.com/free-ebooks/the-great-gatsby.pdf"
+    },
+    {
+        "id": 3,
+        "name": "George Orwell",
+        "title": "Animal Farm",
+        "price": "$0.00",
+        "category": "Free",
+        "image": "https://th.bing.com/th/id/OIP.rAONR25YyHtZ9Yww0DGwaAHaMO?w=184&h=304&c=7&r=0&o=5&pid=1.7",
+        "pdf": "https://files.libcom.org/files/Animal_Farm.pdf"
+    },
+    {
+        "id": 4,
+        "name": "Mary Shelley",
+        "title": "Frankenstein",
+        "price": "$0.00",
+        "category": "Free",
+        "image": "https://th.bing.com/th?id=OSK.393daf29298eecfef78b33d6c5c43dd9&w=120&h=168&c=7&rs=1&qlt=80&o=6&pid=SANGAM",
+        "pdf": "https://www.planetebook.com/free-ebooks/frankenstein.pdf"
+    },
+    {
+        "id": 5,
+        "name": "Jane Austen",
+        "title": "Pride and Prejudice",
+        "price": "$65.00",
+        "category": "Story",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/PrideAndPrejudiceTitlePage.jpg",
+        "pdf": "https://www.planetebook.com/free-ebooks/pride-and-prejudice.pdf"
+    },
+    {
+        "id": 6,
+        "name": "Herman Melville",
+        "title": "Moby Dick",
+        "price": "$45.00",
+        "category": "Story",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Moby-Dick_FE_title_page.jpg",
+        "pdf": "https://www.planetebook.com/free-ebooks/moby-dick.pdf"
+    },
+    {
+        "id": 7,
+        "name": "Mark Twain",
+        "title": "The Adventures of Huckleberry Finn",
+        "price": "$30.00",
+        "category": "Comedy",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Huckleberry_Finn_book.JPG",
+        "pdf": "https://www.gutenberg.org/files/76/76-h/76-h.htm"
+    },
+    {
+        "id": 8,
+        "name": "Lewis Carroll",
+        "title": "Alice's Adventures in Wonderland",
+        "price": "$0.00",
+        "category": "Free",
+        "image": "https://th.bing.com/th/id/OIP.ZOTNRGsJg9XKFupf1Hui4gHaKN?w=184&h=254&c=7&r=0&o=5&pid=1.7",
+        "pdf": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+    },
+    {
+        "id": 9,
+        "name": "Oscar Wilde",
+        "title": "The Picture of Dorian Gray",
+        "price": "$10.00",
+        "category": "Comedy",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Picture_of_Dorian_Gray_%281890%29_cover.png",
+        "pdf": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+        "id": 10,
+        "name": "Victor Hugo",
+        "title": "Les Misérables",
+        "price": "$00.00",
+        "category": "Free",
+        "image": "https://th.bing.com/th/id/OIP.TS-dKaoKCZef9lg2qXpH-QHaMD?w=184&h=301&c=7&r=0&o=5&pid=1.7",
+        "pdf": "https://www.gutenberg.org/files/135/135-h/135-h.htm"
+    },
+    {
+        "id": 11,
+        "name": "Charlotte Brontë",
+        "title": "Jane Eyre",
+        "price": "$55.00",
+        "category": "sci-fi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jane_Eyre_title_page.jpg",
+        "pdf": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm"
+    },
+    {
+        "id": 12,
+        "name": "Fyodor Dostoevsky",
+        "title": "Crime and Punishment",
+        "price": "$26.00",
+        "category": "sci-fi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Crimeandpunishmentcover.png",
+        "pdf": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+    },
+    {
+        "id": 13,
+        "name": "William Shakespeare",
+        "title": "Hamlet",
+        "price": "$35.00",
+        "category": "sci-fi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hamlet_title_page.jpg",
+        "pdf": "https://www.gutenberg.org/files/1524/1524-h/1524-h.htm"
+    },
+    {
+        "id": 14,
+        "name": "Homer",
+        "title": "The Odyssey",
+        "price": "$24.00",
+        "category": "Food",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Homer_Odyssey_c._1598.png",
+        "pdf": "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
+    },
+    {
+        "id": 15,
+        "name": "Bram Stoker",
+        "title": "Dracula",
+        "price": "$10.00",
+        "category": "Food",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dracula1st.jpeg",
+        "pdf": "https://www.gutenberg.org/files/345/345-h/345-h.htm"
+    }
+]
