@@ -33,7 +33,7 @@ const Banner = () => {
               />
             </label>
           </div>
-          <button className="btn mt-6 btn-active btn-secondary">Secondary</button>
+          <button className="btn mt-6 btn-active btn-secondary">Get started</button>
 
         </div>
         <div className="order-1 w-full mt-30 md:w-1/2  md:mt-32">

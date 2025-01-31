@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import list from "../../public/list.json";
 import Card from "./Card";
+import axios from "axios";
 
 const Freebook = () => {
-  const FilterData = list.filter((data) => data.category === "Free");
+  // const FilterData = list.filter((data) => data.category === "Free");
+
+  const [book, setBook] = useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const response = await axios.get("http://localhost:4000/book");
+        console.log(response.data);
+        const data = response.data.filter((data) => data.category === "Free");
+        setBook(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
+  }, []);
+
   var settings = {
     dots: true,
     infinite: false,
@@ -21,48 +37,47 @@ const Freebook = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <>
       <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 ">
-      <div>
-        <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          iure architecto aliquam, alias neque debitis et fuga in quos ex earum
-          facilis officiis pariatur dicta, necessitatibus dolores cum corrupti
-          tenetur.
-        </p>
-      </div>
-      <div>
-      <div className="slider-container">
-      <Slider {...settings}>
-     
-       {FilterData.map((item)=>(
-<Card item ={item} key={item.id}/>
-       ))}
-      </Slider>
-    </div>
-      </div>
+        <div>
+          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            iure architecto aliquam, alias neque debitis et fuga in quos ex
+            earum facilis officiis pariatur dicta, necessitatibus dolores cum
+            corrupti tenetur.
+          </p>
+        </div>
+        <div>
+          <div className="slider-container">
+            <Slider {...settings}>
+              {book.map((item) => (
+                <Card item={item} key={item.id} />
+              ))}
+            </Slider>
+          </div>
+        </div>
       </div>
     </>
   );
