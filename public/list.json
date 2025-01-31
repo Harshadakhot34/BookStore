@@ -42,7 +42,7 @@
         "title": "Pride and Prejudice",
         "price": "$65.00",
         "category": "Story",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/PrideAndPrejudiceTitlePage.jpg",
+        "image": "https://th.bing.com/th?id=OSK.393daf29298eecfef78b33d6c5c43dd9&w=120&h=168&c=7&rs=1&qlt=80&o=6&pid=SANGAM",
         "pdf": "https://www.planetebook.com/free-ebooks/pride-and-prejudice.pdf"
     },
     {
@@ -51,7 +51,7 @@
         "title": "Moby Dick",
         "price": "$45.00",
         "category": "Story",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Moby-Dick_FE_title_page.jpg",
+        "image": "https://th.bing.com/th/id/OIP.6ae-geadYhG-pOWvDafNIgHaKs?w=184&h=267&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.planetebook.com/free-ebooks/moby-dick.pdf"
     },
     {
@@ -60,7 +60,7 @@
         "title": "The Adventures of Huckleberry Finn",
         "price": "$30.00",
         "category": "Comedy",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Huckleberry_Finn_book.JPG",
+        "image": "https://th.bing.com/th/id/OIP.O-wAqnyOJhCjYkDZ8YNlawHaKO?w=184&h=254&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/76/76-h/76-h.htm"
     },
     {
@@ -78,7 +78,7 @@
         "title": "The Picture of Dorian Gray",
         "price": "$10.00",
         "category": "Comedy",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Picture_of_Dorian_Gray_%281890%29_cover.png",
+        "image": "https://th.bing.com/th/id/OIP.jxtUxyB8J73Yt3vNW-MbhQHaLG?w=184&h=276&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
     },
     {
@@ -96,7 +96,7 @@
         "title": "Jane Eyre",
         "price": "$55.00",
         "category": "sci-fi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jane_Eyre_title_page.jpg",
+        "image": "https://th.bing.com/th?id=OSK.393daf29298eecfef78b33d6c5c43dd9&w=120&h=168&c=7&rs=1&qlt=80&o=6&pid=SANGAM",
         "pdf": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm"
     },
     {
@@ -105,7 +105,7 @@
         "title": "Crime and Punishment",
         "price": "$26.00",
         "category": "sci-fi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Crimeandpunishmentcover.png",
+        "image": "https://th.bing.com/th/id/OIP.vTJrkqxaUzsLA0aWxlnZvAHaLZ?w=184&h=284&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
     },
     {
@@ -114,7 +114,7 @@
         "title": "Hamlet",
         "price": "$35.00",
         "category": "sci-fi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hamlet_title_page.jpg",
+        "image": "https://th.bing.com/th/id/OIP.kO_IbnvZ1i-1crgf2Whm5wHaLR?w=184&h=281&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/1524/1524-h/1524-h.htm"
     },
     {
@@ -123,7 +123,7 @@
         "title": "The Odyssey",
         "price": "$24.00",
         "category": "Food",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Homer_Odyssey_c._1598.png",
+        "image": "https://th.bing.com/th/id/OIP.1WxbIygs1IVKVOuQJFDVxgHaLc?w=184&h=284&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
     },
     {
@@ -132,7 +132,7 @@
         "title": "Dracula",
         "price": "$10.00",
         "category": "Food",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dracula1st.jpeg",
+        "image": "https://th.bing.com/th/id/OIP.4DH5mCZDvvimIYRURCtngwHaL8?w=184&h=298&c=7&r=0&o=5&pid=1.7",
         "pdf": "https://www.gutenberg.org/files/345/345-h/345-h.htm"
     }
 ]
